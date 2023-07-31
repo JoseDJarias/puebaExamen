@@ -15,3 +15,16 @@ Mi nombre es Luna y tengo 2 años
 
 Los arreglos no tienen el mismo tamaño
 */
+
+var ArrayNames =  ['Pamela','Nico', 'Luna'];
+var ArrayAges =  [32,2,2];
+if (ArrayNames.length === ArrayAges.length) {
+    function ImprimirNombreEdades(array1,array2) {
+        for (let index = 0; index < 3; index++) {
+            mensaje = 'Mi nombres es '+ array1[index] + ' y tengo ' + array2[index] + ' años'
+            console.log(mensaje);
+        }
+    }
+    
+}
+ImprimirNombreEdades(ArrayNames,ArrayAges)
